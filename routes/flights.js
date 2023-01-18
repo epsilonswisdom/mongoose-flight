@@ -25,7 +25,7 @@ router.delete("/:id", flightsCtrl.delete)
 
 router.delete('/:flightId/meals/:mealId', flightsCtrl.deleteMeal)
 
-router.delete('/:flightdId/tickets/:ticketId', flightsCtrl.deleteTicket)
+router.delete('/:flightId/tickets/:ticketId', flightsCtrl.deleteTicket)
 
 export {
   router
